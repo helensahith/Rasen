@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font_rw_200{
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+
+.font_rw_400{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+.font_rw_500{
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
