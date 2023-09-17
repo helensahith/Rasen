@@ -3,13 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Navbar } from './components/Navbar'
+import Home from './components/Home'
+import {FaBars,FaTimes} from 'react-icons/fa'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar />
+      <Navbar />  
+      {/* <Home /> */}
     </>
   )
 }

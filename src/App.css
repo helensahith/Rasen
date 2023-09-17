@@ -19,3 +19,20 @@
     font-weight: 500;
 }
 
+
+@keyframes fade{
+    from{
+     opacity: 0;
+    }
+
+    to{
+        opacity: 100;
+    }
+}
+
+
+.animate{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 0.5s;
+}
