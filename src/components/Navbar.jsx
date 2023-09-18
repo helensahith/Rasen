@@ -6,7 +6,7 @@ import { useState } from 'react'
 export const Navbar = () => {
   const [menu,setMenu]=useState(false);
   return (
-    <div className='sticky w-full h-[80px] flex justify-between items-center bg-black'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center bg-black'>
         <div className=' flex flex-shrink-0'>
             <img src={Logo} width={80}></img>
         </div>
