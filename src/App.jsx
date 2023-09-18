@@ -5,6 +5,7 @@ import './App.css'
 import { Navbar } from './components/Navbar'
 import Home from './components/Home'
 import {FaBars,FaTimes} from 'react-icons/fa'
+import About from './components/About'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Navbar />  
       <Home />
+      <About />
     </>
   )
 }
